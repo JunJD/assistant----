@@ -1,4 +1,9 @@
 (async () => {
+    // https://api.openai.com/v1/assistants
+    // https://api.openai.com/v1/threads
+    // https://api.openai.com/v1/threads/{thread_id}/messages
+    // https://api.openai.com/v1/threads/{thread_id}/runs
+    
     const response = await window.fetch("https://run.dingjunjie.com/v1/assistants", {
         method: "POST",
         headers: {
